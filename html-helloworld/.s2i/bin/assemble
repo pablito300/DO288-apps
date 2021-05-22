@@ -1,12 +1,12 @@
 #!/bin/bash
 
 
-
+source ${HTTPD_CONTAINER_SCRIPTS_PATH}/common.sh
 config_s2i
 
 
 
-echo "init 2 custom assemble"
+echo "init 233333 custom assemble"
 
 cp -fR /tmp/src/*.html ./
 
