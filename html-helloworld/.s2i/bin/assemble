@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-source ${HTTPD_CONTAINER_SCRIPTS_PATH}/common.sh
 
+config_s2i
 
 
 
