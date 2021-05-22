@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "init custom assemble"
+
+cp -fR /tmp/src/*.html ./
+
+DATE='date "+%Y-%m-%d"'
+
+echo "Frase en latin" >> ./info.html
+echo ${DATE} >> ./info.html 
