@@ -4,13 +4,10 @@
 source ${HTTPD_CONTAINER_SCRIPTS_PATH}/common.sh
 config_s2i
 
+###############################
+##########################3
 
 
-echo "init 233333 custom assemble"
 
-cp -fR /tmp/src/*.html ./
-
-DATE=$(date "+%Y-%m-%d")
-
-echo "Frase en latin" >> ./info.html
-echo ${DATE} >> ./info.html 
+#############
+##############
