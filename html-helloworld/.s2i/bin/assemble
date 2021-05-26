@@ -7,7 +7,12 @@ config_s2i
 ###############################
 ##########################3
 
+cp -fR /tmp/src/*.html ./
 
+DATE=$(date "+%Y-%m-%d")
+
+echo "Cadena de caracteres" >> info.html
+echo ${DATE} >> info.html
 
 #############
 ##############
